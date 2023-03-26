@@ -1,0 +1,70 @@
+var data = [
+
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 1",
+        "img"   : "pic1.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 2",
+        "img"   : "pic2.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 3",
+        "img"   : "pic3.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic4.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic5.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic6.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic7.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic1.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic9.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic10.jpg"
+
+    },
+    {
+        "title" : "this is my title",
+        "para"  : "this is my paragraph 4",
+        "img"   : "pic.jpg"
+
+    }
+
+];

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+ 
+
+<div class="container">
+ <div class="row" id="cardbody">
+ 
+    </div>
+   </div>
+
+
+<script src="data.json"></script>
+
+<script>
+  for(var i = 0; i < data.length; i++) {
+    var ranNumber = Math.floor(Math.random() * data.length);
+
+    // console.log(data[i]); to check
+    document.getElementById("cardbody").innerHTML += `
+    
+    <div class="col-lg-3 col-md-4">
+
+<div class="card">
+  <img src="${data[ranNumber].img}" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${data[i].title}</h5>
+    <p class="card-text">${data[i].para}</p>
+    <a href="#" class="btn btn-primary">click here</a>
+  </div>
+</div>
+
+
+
+    </div>
+    
+    
+    `;
+  }
+</script>
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
